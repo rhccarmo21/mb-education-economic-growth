@@ -84,8 +84,6 @@ mb-education-economic-growth/
 - **Resultados principais com gráficos comparativos**
 - **Implicações para políticas públicas**
 
----
-
 ## 2. Relatório Técnico (10–15 páginas)
 
 **Público-alvo:** Avaliadores técnicos e acadêmicos  
@@ -96,8 +94,6 @@ mb-education-economic-growth/
 - **Análises estatísticas aprofundadas** (regressões, séries temporais, robustez)
 - **Discussão de limitações e potenciais vieses**
 - **Sugestões de próximos estudos**
-
----
 
 ## 🎯 Produção dos Relatórios
 
