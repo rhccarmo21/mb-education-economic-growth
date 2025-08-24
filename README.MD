@@ -1,4 +1,3 @@
-```markdown
 # 📊 Projeto: Educação e Crescimento Econômico
 
 ## 🌍 Visão Geral
@@ -59,13 +58,12 @@ sqlalchemy>=1.4.0
 
 # LaTeX e Relatórios
 pylatex>=1.4.0
-```
+
 
 ---
 
 📂 Estrutura do Projeto
 
-```
 mb-education-economic-growth/
 │
 ├── 📊 data/
@@ -90,7 +88,7 @@ mb-education-economic-growth/
 │
 ├── ⚙️ requirements.txt
 └── 📄 README.md
-```
+
 
 ---
 
@@ -102,10 +100,14 @@ Público-Alvo: Gestores e formuladores de políticas públicas
 
 Conteúdo:
 
-· Contexto e justificativa
-· Perguntas de pesquisa
-· Resultados principais com gráficos
-· Implicações para políticas públicas
+Contexto e justificativa
+
+Perguntas de pesquisa
+
+Resultados principais com gráficos
+
+Implicações para políticas públicas
+
 
 2. 🔧 Relatório Técnico (10–15 páginas)
 
@@ -113,10 +115,15 @@ Público-Alvo: Acadêmicos e pesquisadores
 
 Conteúdo:
 
-· Metodologia detalhada
-· Análises estatísticas aprofundadas
-· Discussão de limitações
-· Sugestões para estudos futuros
+Metodologia detalhada
+
+Análises estatísticas aprofundadas
+
+Discussão de limitações
+
+Sugestões para estudos futuros
+
+
 
 ---
 
@@ -124,22 +131,29 @@ Conteúdo:
 
 📝 Pipeline LaTeX
 
-· Geração Automática: Atualização em tempo real
-· Consistência Visual: Design unificado
-· Integração Completa: Conexão direta com dados
+Geração Automática: Atualização em tempo real
+
+Consistência Visual: Design unificado
+
+Integração Completa: Conexão direta com dados
+
 
 🎨 Características Técnicas
 
-· Formato: PDF/A
-· Resolução: 300 DPI
-· Paleta de cores padronizada
-· Tipografia profissional
+Formato: PDF/A
+
+Resolução: 300 DPI
+
+Paleta de cores padronizada
+
+Tipografia profissional
+
+
 
 ---
 
 ⚙️ Dependências LaTeX
 
-```txt
 texlive-full
 latexmk
 graphicx
@@ -147,39 +161,42 @@ hyperref
 amsmath
 booktabs
 pgfplots
-```
+
 
 ---
 
 📋 Cronograma
 
-Fase Prazo
-Coleta de Dados Semana 1-2
-Análise Exploratória Semana 3-4
-Modelagem Estatística Semana 5-6
-Produção de Relatórios Semana 7-8
-Revisão Final Semana 9
+Fase	Prazo
+
+Coleta de Dados	Semana 1-2
+Análise Exploratória	Semana 3-4
+Modelagem Estatística	Semana 5-6
+Produção de Relatórios	Semana 7-8
+Revisão Final	Semana 9
+
+
 
 ---
 
 🔒 Controle de Qualidade
 
-· Validação estatística
-· Revisão por pares
-· Verificação de dados
-· Alinhamento com objetivos
+Validação estatística
+
+Revisão por pares
+
+Verificação de dados
+
+Alinhamento com objetivos
+
+
 
 ---
 
-Documento gerado em: {{data_atual}}
-Versão: 1.0.0
+📌 Documento gerado em: {{data_atual}}
+📌 Versão: 1.0.0
 
-```
+---
 
-Para fazer o download deste arquivo, você pode:
+Quer que eu já gere o arquivo `.md` pronto para você baixar aqui mesmo, ou prefere só copiar e colar no seu editor?
 
-1. **Copiar e colar** o conteúdo acima em um novo arquivo com extensão `.md`
-2. **Salvar diretamente** usando o comando apropriado do seu editor de texto
-3. **Usar ferramentas online** para converter Markdown para PDF se desejar
-
-Deseja que eu faça alguma modificação específica no arquivo ou que adicione alguma seção adicional?
