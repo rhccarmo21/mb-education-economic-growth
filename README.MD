@@ -71,7 +71,7 @@ mb-education-economic-growth/
 
 ---
 
-# 📄 Relatórios
+## 📄 Relatórios
 
 ## 1. Relatório Executivo (5–6 páginas)
 
