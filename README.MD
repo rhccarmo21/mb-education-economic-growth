@@ -73,6 +73,8 @@ mb-education-economic-growth/
 
 ## 📄 Relatórios
 
+---
+
 ## 1. Relatório Executivo (5–6 páginas)
 
 **Público-alvo:** Gestores e policy makers  
