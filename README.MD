@@ -1,42 +1,39 @@
-📊 Projeto: Educação e Crescimento Econômico
+```markdown
+# 📊 Projeto: Educação e Crescimento Econômico
 
-🌍 Visão Geral
+## 🌍 Visão Geral
+Este projeto investiga a relação entre **educação** e **crescimento econômico**, explorando dados de múltiplas fontes globais para compreender como indicadores educacionais influenciam o desenvolvimento econômico de países e regiões.
 
-Este projeto investiga a relação entre educação e crescimento econômico, explorando dados de múltiplas fontes globais para compreender como indicadores educacionais influenciam o desenvolvimento econômico de países e regiões.
-
-O objetivo é identificar correlações, padrões e possíveis implicações de políticas públicas que possam reforçar a importância do investimento em educação para o crescimento sustentável.
+O objetivo é identificar **correlações, padrões e possíveis implicações de políticas públicas** que possam reforçar a importância do investimento em educação para o crescimento sustentável.
 
 ---
 
-❓ Perguntas de Pesquisa
-
+## ❓ Perguntas de Pesquisa
 O projeto busca responder a questões centrais como:
 
-1. Relação Estatística: Existe uma relação estatisticamente significativa entre indicadores educacionais (taxa de matrícula, anos médios de escolaridade, gasto público em educação) e crescimento econômico (PIB per capita, crescimento anual do PIB)?
-2. Eficiência Regional: Quais regiões ou grupos de países apresentam maior eficiência na transformação de investimentos em educação em crescimento econômico?
-3. Linearidade do Efeito: O efeito da educação no crescimento é linear, ou existem pontos de saturação (diminuição dos retornos marginais)?
-4. Variáveis Intermediárias: Quais variáveis socioeconômicas intermediárias (desigualdade, mercado de trabalho, inovação tecnológica) mediam essa relação?
-5. Causalidade vs. Correlação: Há indícios de causalidade (educação → crescimento) ou apenas correlação?
+1. **Relação Estatística**: Existe uma relação estatisticamente significativa entre indicadores educacionais (taxa de matrícula, anos médios de escolaridade, gasto público em educação) e crescimento econômico (PIB per capita, crescimento anual do PIB)?
+2. **Eficiência Regional**: Quais regiões ou grupos de países apresentam maior eficiência na transformação de investimentos em educação em crescimento econômico?
+3. **Linearidade do Efeito**: O efeito da educação no crescimento é linear, ou existem pontos de saturação (diminuição dos retornos marginais)?
+4. **Variáveis Intermediárias**: Quais variáveis socioeconômicas intermediárias (desigualdade, mercado de trabalho, inovação tecnológica) mediam essa relação?
+5. **Causalidade vs. Correlação**: Há indícios de causalidade (educação → crescimento) ou apenas correlação?
 
 ---
 
-🔗 Fontes de Dados / APIs
+## 🔗 Fontes de Dados / APIs
 
-Este projeto se apoia em bases de dados internacionais, acessadas preferencialmente via APIs:
-
-Fonte Descrição
-UNESCO Institute for Statistics (UIS API) Indicadores educacionais globais
-Banco Mundial (World Bank API) PIB, crescimento econômico, indicadores sociais
-OECD API Indicadores comparativos de educação e produtividade
-UNDP (Human Development Reports API) Índice de Desenvolvimento Humano e variáveis socioeconômicas
-ILO (International Labour Organization API) Mercado de trabalho e empregabilidade
+| Fonte | Descrição |
+|-------|-----------|
+| **UNESCO Institute for Statistics (UIS API)** | Indicadores educacionais globais |
+| **Banco Mundial (World Bank API)** | PIB, crescimento econômico, indicadores sociais |
+| **OECD API** | Indicadores comparativos de educação e produtividade |
+| **UNDP (Human Development Reports API)** | Índice de Desenvolvimento Humano e variáveis socioeconômicas |
+| **ILO (International Labour Organization API)** | Mercado de trabalho e empregabilidade |
 
 ---
 
-⚙️ Requisitos Técnicos
+## ⚙️ Requisitos Técnicos
 
-📦 Dependências Python (requirements.txt)
-
+### 📦 Dependências Python
 ```txt
 # Análise de Dados
 pandas>=1.5.0
@@ -62,7 +59,6 @@ sqlalchemy>=1.4.0
 
 # LaTeX e Relatórios
 pylatex>=1.4.0
-latex>=0.7.0
 ```
 
 ---
@@ -73,60 +69,27 @@ latex>=0.7.0
 mb-education-economic-growth/
 │
 ├── 📊 data/
-│   ├── 📁 raw/                 # Dados brutos das APIs
-│   │   ├── 📄 unesco_data.csv
-│   │   ├── 📄 worldbank_data.csv
-│   │   └── 📄 oecd_data.csv
-│   │
-│   └── 📁 processed/           # Dados tratados e integrados
-│       ├── 📄 merged_dataset.csv
-│       ├── 📄 cleaned_data.csv
-│       └── 📄 analysis_ready.csv
+│   ├── 📁 raw/
+│   └── 📁 processed/
 │
 ├── 📓 notebooks/
-│   ├── 📘 01_data_collection.ipynb
-│   ├── 📘 02_eda_analysis.ipynb
-│   ├── 📘 03_statistical_modeling.ipynb
-│   └── 📘 04_visualization.ipynb
+│   ├── 01_data_collection.ipynb
+│   ├── 02_eda_analysis.ipynb
+│   ├── 03_statistical_modeling.ipynb
+│   └── 04_visualization.ipynb
 │
 ├── 📝 reports/
-│   ├── 📁 executive/           # Relatório executivo
-│   │   ├── 📄 main.tex
-│   │   ├── 📁 sections/
-│   │   ├── 📁 figures/
-│   │   └── 📁 output/
-│   │
-│   ├── 📁 technical/           # Relatório técnico
-│   │   ├── 📄 main.tex
-│   │   ├── 📁 sections/
-│   │   ├── 📁 tables/
-│   │   └── 📁 output/
-│   │
-│   └── 📁 shared/              # Recursos compartilhados
-│       ├── 📁 templates/
-│       ├── 📁 styles/
-│       ├── 📄 bibliografia.bib
-│       └── 📄 macros.tex
+│   ├── 📁 executive/
+│   ├── 📁 technical/
+│   └── 📁 shared/
 │
 ├── 📁 src/
-│   ├── 📁 data/                # Scripts de manipulação de dados
-│   │   ├── 📄 data_collection.py
-│   │   ├── 📄 data_cleaning.py
-│   │   └── 📄 data_integration.py
-│   │
-│   ├── 📁 analysis/            # Análises estatísticas
-│   │   ├── 📄 regression_analysis.py
-│   │   ├── 📄 time_series.py
-│   │   └── 📄 causal_inference.py
-│   │
-│   └── 📁 visualization/       # Visualizações e gráficos
-│       ├── 📄 plot_utils.py
-│       ├── 📄 dashboard.py
-│       └── 📄 report_figures.py
+│   ├── 📁 data/
+│   ├── 📁 analysis/
+│   └── 📁 visualization/
 │
 ├── ⚙️ requirements.txt
-├── 📄 README.md
-└── 📄 .gitignore
+└── 📄 README.md
 ```
 
 ---
@@ -136,136 +99,87 @@ mb-education-economic-growth/
 1. 📋 Relatório Executivo (5–6 páginas)
 
 Público-Alvo: Gestores e formuladores de políticas públicas
-Objetivo: Comunicação clara e direta dos principais insights
 
-🎯 Estrutura do Conteúdo:
+Conteúdo:
 
-· 📌 Contexto e Justificativa
-  · Relevância do tema para políticas públicas
-  · Importância estratégica do investimento em educação
-· ❓ Perguntas de Pesquisa
-  · Objetivos principais do estudo
-  · Questões investigadas
-· 📊 Resultados Principais
-  · Gráficos comparativos e visualizações impactantes
-  · Principais correlações identificadas
-  · Insights por região/grupo de países
-· 💡 Implicações para Políticas Públicas
-  · Recomendações estratégicas
-  · Diretrizes para investimentos
-  · Impacto potencial no crescimento econômico
-
----
+· Contexto e justificativa
+· Perguntas de pesquisa
+· Resultados principais com gráficos
+· Implicações para políticas públicas
 
 2. 🔧 Relatório Técnico (10–15 páginas)
 
-Público-Alvo: Acadêmicos, pesquisadores e avaliadores técnicos
-Objetivo: Rigor metodológico e profundidade analítica
+Público-Alvo: Acadêmicos e pesquisadores
 
-🎯 Estrutura do Conteúdo:
+Conteúdo:
 
-· 📋 Metodologia Detalhada
-  · Fontes de dados e critérios de seleção
-  · Métodos de coleta e tratamento
-  · Framework analítico completo
-· 📈 Análises Estatísticas Aprofundadas
-  · Modelos de regressão multivariada
-  · Análise de séries temporais
-  · Testes de robustez e validação
-  · Análise de mediação e moderação
-· ⚠️ Discussão de Limitações
-  · Potenciais vieses metodológicos
-  · Considerações sobre causalidade
-  · Limitações dos dados disponíveis
-· 🔮 Sugestões para Estudos Futuros
-  · Direções de pesquisa futuras
-  · Melhorias metodológicas
-  · Expansões possíveis do estudo
+· Metodologia detalhada
+· Análises estatísticas aprofundadas
+· Discussão de limitações
+· Sugestões para estudos futuros
 
 ---
 
-🛠️ Sistema de Produção de Relatórios
+🛠️ Sistema de Produção
 
-📝 Pipeline LaTeX Integrado
+📝 Pipeline LaTeX
 
-· 🔄 Geração Automática: Atualização em tempo real com novos resultados
-· 🎨 Consistência Visual: Design unificado entre documentos
-· ⚡ Eficiência: Templates padronizados e macros personalizadas
+· Geração Automática: Atualização em tempo real
+· Consistência Visual: Design unificado
+· Integração Completa: Conexão direta com dados
 
-🎨 Características Técnicas:
+🎨 Características Técnicas
 
-```yaml
-formato: PDF/A (arquivo)
-resolução: 300 DPI (gráficos)
-paleta_cores: Padronizada (acessível)
-tipografia: Fontes profissionais (Latin Modern)
-```
-
-📊 Integração Técnica:
-
-· 🔗 Conexão Direta: Vinculação com base de dados processados
-· 📈 Geração Dinâmica: Gráficos e tabelas atualizados automaticamente
-· 🔧 Versionamento: Controle de versões integrado com Git
+· Formato: PDF/A
+· Resolução: 300 DPI
+· Paleta de cores padronizada
+· Tipografia profissional
 
 ---
 
-⚙️ Dependências LaTeX Adicionais
+⚙️ Dependências LaTeX
 
 ```txt
-# Pacotes LaTeX Essenciais
 texlive-full
 latexmk
-bibtex
-
-# Pacotes de Formatação
 graphicx
 hyperref
-booktabs
-multirow
-array
-
-# Pacotes Matemáticos
 amsmath
-amssymb
-geometry
-
-# Pacotes de Estilo
-setspace
-titlesec
-fancyhdr
-caption
-subcaption
-
-# Pacotes de Código
-listings
-xcolor
-
-# Pacotes Gráficos
+booktabs
 pgfplots
-tikz
 ```
 
 ---
 
-📋 Cronograma de Entrega
+📋 Cronograma
 
-Fase Descrição Prazo
-Coleta de Dados Extração e integração das APIs Semana 1-2
-Análise Exploratória EDA e pré-processamento Semana 3-4
-Modelagem Estatística Análises e testes Semana 5-6
-Produção de Relatórios Geração LaTeX e revisão Semana 7-8
-Revisão Final Ajustes e validação Semana 9
+Fase Prazo
+Coleta de Dados Semana 1-2
+Análise Exploratória Semana 3-4
+Modelagem Estatística Semana 5-6
+Produção de Relatórios Semana 7-8
+Revisão Final Semana 9
 
 ---
 
 🔒 Controle de Qualidade
 
-· ✅ Validação Estatística: Testes de significância e robustez
-· 🔍 Revisão por Pares: Validação metodológica
-· 📊 Verificação de Dados: Consistência e integridade
-· 🎯 Alinhamento com Objetivos: Revisão contínua dos resultados
+· Validação estatística
+· Revisão por pares
+· Verificação de dados
+· Alinhamento com objetivos
 
 ---
 
-Última atualização: {{data_atual}}
-Versão do documento: 1.0.0
+Documento gerado em: {{data_atual}}
+Versão: 1.0.0
+
+```
+
+Para fazer o download deste arquivo, você pode:
+
+1. **Copiar e colar** o conteúdo acima em um novo arquivo com extensão `.md`
+2. **Salvar diretamente** usando o comando apropriado do seu editor de texto
+3. **Usar ferramentas online** para converter Markdown para PDF se desejar
+
+Deseja que eu faça alguma modificação específica no arquivo ou que adicione alguma seção adicional?
