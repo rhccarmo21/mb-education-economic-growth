@@ -69,6 +69,8 @@ mb-education-economic-growth/
 ├── requirements.txt         # Dependências do projeto
 ├── README.md                # Documento atual
 
+---
+
 # 📄 Relatórios
 
 ## 1. Relatório Executivo (5–6 páginas)
