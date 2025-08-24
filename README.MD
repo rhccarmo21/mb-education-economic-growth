@@ -69,42 +69,81 @@ mb-education-economic-growth/
 ├── requirements.txt         # Dependências do projeto
 ├── README.md                # Documento atual
 
-📄 Relatórios
-1. Relatório Executivo (5–6 páginas)
-Público-alvo: Gestores e policy makers
-Foco: Clareza e impacto visual
+# 📄 Relatórios
 
-Conteúdo Principal:
+## 📋 1. Relatório Executivo (5–6 páginas)
 
-Contexto e justificativa
+**Público-alvo:** Gestores e formuladores de políticas públicas  
+**Objetivo:** Apresentação clara e visual dos principais insights
 
-Perguntas de pesquisa
+### 🎯 Estrutura do Conteúdo:
+- **📌 Contexto e Justificativa**
+  - Importância da relação educação-crescimento econômico
+  - Relevância para políticas públicas
+- **❓ Perguntas de Pesquisa**
+  - Objetivos principais do estudo
+  - Questões investigadas
+- **📊 Resultados Principais**
+  - Gráficos comparativos e visualizações impactantes
+  - Principais correlações identificadas
+  - Insights por região/grupo de países
+- **💡 Implicações para Políticas Públicas**
+  - Recomendações estratégicas
+  - Diretrizes para investimentos em educação
+  - Impacto potencial no crescimento econômico
 
-Resultados principais com gráficos comparativos
+---
 
-Implicações para políticas públicas
+## 🔧 2. Relatório Técnico (10–15 páginas)
 
-2. Relatório Técnico (10–15 páginas)
-Público-alvo: Avaliadores técnicos e acadêmicos
-Foco: Rigor metodológico e profundidade analítica
+**Público-alvo:** Acadêmicos, pesquisadores e avaliadores técnicos  
+**Objetivo:** Rigor metodológico e profundidade analítica
 
-Conteúdo Principal:
+### 🎯 Estrutura do Conteúdo:
+- **📋 Metodologia Detalhada**
+  - Fontes de dados e critérios de seleção
+  - Métodos de coleta e tratamento de dados
+  - Framework analítico
+- **📈 Análises Estatísticas Aprofundadas**
+  - Modelos de regressão multivariada
+  - Análise de séries temporais
+  - Testes de robustez e validação
+  - Análise de mediação e moderação
+- **⚠️ Discussão de Limitações**
+  - Potenciais vieses e limitações metodológicas
+  - Considerações sobre causalidade vs. correlação
+  - Limitações dos dados disponíveis
+- **🔮 Sugestões para Próximos Estudos**
+  - Direções futuras de pesquisa
+  - Melhorias metodológicas sugeridas
+  - Expansões possíveis do estudo
 
-Metodologia detalhada
+---
 
-Análises estatísticas aprofundadas (regressões, séries temporais, robustez)
+## 🛠️ Produção dos Relatórios
 
-Discussão de limitações e potenciais vieses
+### 📝 Sistema de Geração:
+- **🔄 Pipeline Integrado LaTeX**
+  - Geração automática a partir dos dados processados
+  - Templates consistentes para ambos os relatórios
+  - Atualização em tempo real com novos resultados
 
-Sugestões de próximos estudos
+### 🎨 Características Técnicas:
+- **✅ Consistência Visual**
+  - Design unificado entre documentos
+  - Paleta de cores e tipografia padronizadas
+  - Layout profissional e acadêmico
+- **⚡ Atualização Automática**
+  - Vinculação direta com base de dados
+  - Geração dinâmica de gráficos e tabelas
+  - Atualização de métricas e resultados
+- **📊 Integração com Análise**
+  - Conexão direta com notebooks Jupyter
+  - Exportação automática de visualizações
+  - Inclusão de código estatístico quando relevante
 
-🎯 Produção dos Relatórios
-Ambos os relatórios serão:
-
-Gerados em LaTeX a partir do mesmo pipeline
-
-Garantem consistência visual entre documentos
-
-Permitem atualização automática dos dados e resultados
-
-Produzidos de forma integrada com a análise de dados
+### 📦 Entregáveis:
+- **📄 Versão PDF** - Formatada profissionalmente
+- **📝 Código Fonte LaTeX** - Para modificações futuras
+- **📊 Dados Suplementares** - Conjuntos de dados processados
+- **🖼️ Visualizações Separadas** - Gráficos em alta resolução
