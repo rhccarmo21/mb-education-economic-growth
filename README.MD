@@ -1,4 +1,4 @@
-# 📊 Projeto: Educação e Crescimento Econômico (mb-education-economic-growth)
+# 📊 Projeto: Educação e Crescimento Econômico
 
 ## 🌍 Visão Geral
 Este projeto investiga a relação entre **educação** e **crescimento econômico**, explorando dados de múltiplas fontes globais para compreender como indicadores educacionais influenciam o desenvolvimento econômico de países e regiões.
