@@ -69,39 +69,42 @@ mb-education-economic-growth/
 ├── requirements.txt         # Dependências do projeto
 ├── README.md                # Documento atual
 
----
+📄 Relatórios
+1. Relatório Executivo (5–6 páginas)
+Público-alvo: Gestores e policy makers
+Foco: Clareza e impacto visual
 
-## 📄 Relatórios
+Conteúdo Principal:
 
----
+Contexto e justificativa
 
-## 1. Relatório Executivo (5–6 páginas)
+Perguntas de pesquisa
 
-**Público-alvo:** Gestores e policy makers  
-**Foco:** Clareza e impacto visual
+Resultados principais com gráficos comparativos
 
-### Conteúdo Principal:
-- **Contexto e justificativa**
-- **Perguntas de pesquisa** 
-- **Resultados principais com gráficos comparativos**
-- **Implicações para políticas públicas**
+Implicações para políticas públicas
 
-## 2. Relatório Técnico (10–15 páginas)
+2. Relatório Técnico (10–15 páginas)
+Público-alvo: Avaliadores técnicos e acadêmicos
+Foco: Rigor metodológico e profundidade analítica
 
-**Público-alvo:** Avaliadores técnicos e acadêmicos  
-**Foco:** Rigor metodológico e profundidade analítica
+Conteúdo Principal:
 
-### Conteúdo Principal:
-- **Metodologia detalhada**
-- **Análises estatísticas aprofundadas** (regressões, séries temporais, robustez)
-- **Discussão de limitações e potenciais vieses**
-- **Sugestões de próximos estudos**
+Metodologia detalhada
 
-## 🎯 Produção dos Relatórios
+Análises estatísticas aprofundadas (regressões, séries temporais, robustez)
 
+Discussão de limitações e potenciais vieses
+
+Sugestões de próximos estudos
+
+🎯 Produção dos Relatórios
 Ambos os relatórios serão:
-- **Gerados em LaTeX** a partir do mesmo pipeline
-- **Garantem consistência visual** entre documentos
-- **Permitem atualização automática** dos dados e resultados
-- **Produzidos de forma integrada** com a análise de dados
 
+Gerados em LaTeX a partir do mesmo pipeline
+
+Garantem consistência visual entre documentos
+
+Permitem atualização automática dos dados e resultados
+
+Produzidos de forma integrada com a análise de dados
