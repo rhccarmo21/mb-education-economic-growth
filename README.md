@@ -184,8 +184,5 @@ Roberto da Cunha - @rhccarmo21
 ---
 
 ### 📌 Informações do Projeto
-- Data de Criação: 24 de agosto de 2025  
-- Última Atualização: 24 de agosto de 2025  
-- Versão: 1.0.0  
 - Status: Em desenvolvimento  
 - Nota: Esta análise utiliza dados simulados para fins demonstrativos
