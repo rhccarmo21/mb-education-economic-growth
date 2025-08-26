@@ -1,0 +1,6 @@
+country,hdi,life_expectancy,education_index,gni_per_capita,country_code,year,source
+Norway,0.957,82.4,0.954,66394,NOR,2021,UNDP
+Switzerland,0.955,83.8,0.924,68434,CHE,2021,UNDP
+Brazil,0.759,75.9,0.726,14173,BRA,2021,UNDP
+India,0.633,70.4,0.614,6684,IND,2021,UNDP
+United States,0.921,78.9,0.894,63543,USA,2021,UNDP

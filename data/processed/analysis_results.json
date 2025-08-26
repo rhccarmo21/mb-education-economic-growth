@@ -1,0 +1,17 @@
+{
+  "analysis_date": "2025-08-25",
+  "total_countries": 262,
+  "analysis_countries": 224,
+  "correlation_education_gdp": 0.6091590623684716,
+  "p_value": 3.8442227000300236e-24,
+  "r_squared": 0.3710747632656355,
+  "marginal_return": 526.9598268407804,
+  "gdp_range": [
+    833.920257458019,
+    129865.629988164
+  ],
+  "education_range": [
+    15.42516040802,
+    151.727508544922
+  ]
+}
