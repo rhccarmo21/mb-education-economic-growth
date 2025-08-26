@@ -174,7 +174,7 @@ Este projeto está sob a licença **MIT**. Veja o arquivo LICENSE para detalhes.
 ---
 
 ## 👥 Autor
-[Seu Nome] - @seu-usuario
+Roberto da Cunha - @rhccarmo21
 
 <div align="center">
 🎓 Projeto para entender como a educação transforma economias e sociedades <br>
