@@ -1,5 +1,3 @@
-# 📊 Educação e Crescimento Econômico
-
 # 📊 Educação e Crescimento Econômico: Evidências de 200+ Países
 
 Este estudo integra **Ciência de Dados** e **Políticas Públicas** para investigar a relação entre **investimentos educacionais** e **crescimento econômico**. Utilizamos dados do **Banco Mundial** cobrindo mais de **200 países** ao longo de vários anos, com foco em como matrículas, gastos em educação e participação no PIB se correlacionam com o **PIB per capita**.
