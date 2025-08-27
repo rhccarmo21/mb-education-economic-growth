@@ -1,0 +1,11 @@
+GDP per Capita (PPP) – NY.GDP.PCAP.PP.CD → API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_409116.zip
+
+Secondary Education Enrollment Rate – SE.SEC.ENRR → API_SE.SEC.ENRR_DS2_en_csv_v2_394206.zip
+
+Education Expenditure (% of GDP) – SE.XPD.TOTL.GD.ZS → API_SE.XPD.TOTL.GD.ZS_DS2_en_csv_v2_408324.zip
+
+Higher Education Attainment (% population 25+) – SE.SEC.CUAT.UP.ZS → API_SE.SEC.CUAT.UP.ZS_DS2_en_csv_v2_23900.zip
+
+R&D Expenditure (% of GDP) – GB.XPD.RSDV.GD.ZS → API_GB.XPD.RSDV.GD.ZS_DS2_en_csv_v2_408555.zip
+
+Gini Index – SI.POV.GINI → API_SI.POV.GINI_DS2_en_csv_v2_408161.zip
