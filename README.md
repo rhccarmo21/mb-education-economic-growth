@@ -91,7 +91,7 @@ O gráfico de dispersão entre total de matrículas e PIB per capita mostra que:
 ### Execução
 Execute o script principal do projeto:
 ```bash
-python protinho.py
+python mb-education-economic-growth.py
 
 ### 📂 Estrutura do Projeto
 mb-education-economic-growth/
@@ -104,6 +104,8 @@ mb-education-economic-growth/
 ├── gasxpercap.png          # Gráfico - Dispersão Gasto x PIB
 ├── mtxpib.png              # Gráfico - Dispersão Matrículas x PIB
 └── README.md               # Este arquivo
+
+----
 
 ### 🛠 Tecnologias Utilizadas
 Linguagem: Python
