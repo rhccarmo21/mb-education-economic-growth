@@ -115,18 +115,16 @@ mb-education-economic-growth/
 ├── mtxpib.png              # Gráfico - Dispersão Matrículas x PIB
 └── README.md               # Este arquivo
 
+---
+
 #### 🛠 Tecnologias Utilizadas
 Linguagem: Python
-
 Principais Bibliotecas: pandas, numpy, matplotlib, seaborn, scipy
-
 Fonte de Dados: Banco Mundial (World Development Indicators)
 
-👤 Autor
-Roberto da Cunha
-
+----
+👤 Autor Roberto da Cunha
 LinkedIn: link para o seu LinkedIn
-
 GitHub: @rhccarmo21
 
 📄 Licença
