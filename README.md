@@ -106,13 +106,21 @@ python mb-education-economic-growth.py
 ### 📂 Estrutura do Projeto
 mb-education-economic-growth/
 ├── data/                   # Diretório para armazenar os dados brutos e processados
+
 ├── notebooks/              # (Opcional) Jupyter notebooks para análise exploratória
+
 ├── mb-education-economic-growth.py # Script principal de análise
+
 ├── requirements.txt        # Lista de dependências do Python
+
 ├── viridis.png             # Gráfico - Top 20 correlações
+
 ├── magma.png               # Gráfico - Bottom 20 correlações
+
 ├── gasxpercap.png          # Gráfico - Dispersão Gasto x PIB
+
 ├── mtxpib.png              # Gráfico - Dispersão Matrículas x PIB
+
 └── README.md               # Este arquivo
 
 ---
