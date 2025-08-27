@@ -105,7 +105,7 @@ mb-education-economic-growth/
 ├── mtxpib.png              # Gráfico - Dispersão Matrículas x PIB
 └── README.md               # Este arquivo
 
-🛠 Tecnologias Utilizadas
+### 🛠 Tecnologias Utilizadas
 Linguagem: Python
 
 Principais Bibliotecas: pandas, numpy, matplotlib, seaborn, scipy
