@@ -107,7 +107,7 @@ python mb-education-economic-growth.py
 mb-education-economic-growth/
 ├── data/                   # Diretório para armazenar os dados brutos e processados
 ├── notebooks/              # (Opcional) Jupyter notebooks para análise exploratória
-├── protinho.py             # Script principal de análise
+├── mb-education-economic-growth.py # Script principal de análise
 ├── requirements.txt        # Lista de dependências do Python
 ├── viridis.png             # Gráfico - Top 20 correlações
 ├── magma.png               # Gráfico - Bottom 20 correlações
