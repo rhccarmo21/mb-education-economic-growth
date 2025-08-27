@@ -1,66 +1,68 @@
 # 📊 Educação e Crescimento Econômico
 
-## 🌍 Contexto
-Este estudo investiga a relação entre **desenvolvimento econômico** e **investimentos/níveis de escolaridade**, utilizando dados oficiais do **Banco Mundial**.  
-A motivação é compreender em que medida a **educação** pode ser considerada motor do crescimento de longo prazo, especialmente em países em desenvolvimento.
+# 📊 Educação e Crescimento Econômico: Evidências de 200+ Países
 
-O trabalho faz parte de um portfólio de projetos em **Ciência de Dados aplicada a Políticas Públicas**, buscando traduzir evidências em insights úteis para gestores, pesquisadores e cidadãos.
+Este estudo integra **Ciência de Dados** e **Políticas Públicas** para investigar a relação entre **investimentos educacionais** e **crescimento econômico**. Utilizamos dados do **Banco Mundial** cobrindo mais de **200 países** ao longo de vários anos, com foco em como matrículas, gastos em educação e participação no PIB se correlacionam com o **PIB per capita**.
 
 ---
 
-## 📋 Visão Geral
-- **Fonte de dados**: Banco Mundial (World Development Indicators).  
-- **Período analisado**: 2000–2023.  
-- **Países incluídos**: 200+ nações com dados disponíveis.  
-- **Indicadores principais**:
-  - PIB per capita (crescimento econômico).  
-  - Despesa pública em educação (% do PIB).  
-  - Taxa líquida de matrícula no ensino primário e secundário.  
+## 🔍 Metodologia
+
+- **Fonte de dados:** Banco Mundial (indicadores de educação e economia).
+- **Variáveis principais analisadas:**
+  - PIB per capita (GDP per capita)
+  - Matrículas totais em todos os níveis (Total Enrollment)
+  - Matrículas no ensino secundário (% da população em idade escolar)
+  - Gastos em educação (% do PIB)
+  - Gastos totais em educação (valores absolutos)
+- **Técnica utilizada:** análise de correlação de Pearson entre indicadores de educação e PIB per capita, tanto em nível global quanto por país.
 
 ---
 
-## 🛠️ Metodologia
-1. **Coleta de dados** via API do Banco Mundial.  
-2. **Limpeza e padronização** dos indicadores para garantir comparabilidade entre países.  
-3. **Análises estatísticas**:
-   - Correlação entre variáveis.  
-   - Visualizações comparativas por região e nível de renda.  
-   - Tendências temporais.  
-4. **Geração de gráficos** para apoiar a interpretação dos resultados.
+## 📊 Resultados
+
+### 1. Correlação global entre educação e PIB per capita
+
+| Indicador de Educação | Correlação com PIB per capita |
+|------------------------|-------------------------------|
+| Total Enrollment       | **0.476** |
+| Secondary Enrollment % | **0.288** |
+| Education Expenditure % GDP | **0.272** |
+| Total Expenditure (absolute) | **0.094** |
+
+➡️ **Interpretação:**  
+De forma geral, países com **maior taxa de matrículas** e **maior percentual de gastos em educação** apresentam níveis mais altos de PIB per capita. No entanto, a força dessas correlações é **moderada**, sugerindo que a educação é importante, mas não o único fator determinante do desenvolvimento econômico.
 
 ---
 
-## 📈 Resultados Principais
-A seguir, alguns dos gráficos produzidos no estudo.  
+### 2. Correlação por país (indicadores educacionais x PIB per capita)
 
-### 1. Relação entre gasto em educação e crescimento econômico
-📌 *Comentário*: Observa-se uma **correlação positiva**: países que investem percentualmente mais em educação tendem a apresentar maiores taxas de crescimento de longo prazo, embora haja dispersão relevante.
+A análise país a país revela grande variação:
 
----
-
-### 2. Escolaridade e renda per capita
-📌 *Comentário*: Aumentos na taxa de matrícula, sobretudo no ensino secundário, estão associados a **PIB per capita mais elevado**. Regiões como a Ásia Oriental apresentam ganhos mais consistentes nesse aspecto.
+- **Correlação positiva moderada** em países como **Albânia (0.115)** e **Argélia (0.129)**, indicando que aumentos em matrículas e investimentos em educação tendem a acompanhar o crescimento econômico.
+- **Correlação negativa** em países como **Zâmbia (-0.391)** e **West Bank and Gaza (-0.350)**, sugerindo que maiores gastos não necessariamente se traduzem em crescimento, possivelmente devido a fatores estruturais, instabilidade política ou ineficiências no sistema educacional.
+- **Muitos países apresentam correlação fraca ou próxima de zero**, revelando que o impacto da educação sobre o crescimento econômico é fortemente mediado por outros fatores locais (governança, desigualdade, setor produtivo, etc.).
 
 ---
 
-### 3. Diferenças regionais
-📌 *Comentário*: A relação educação ↔ crescimento não é homogênea. Países da África Subsaariana mostram **alto esforço relativo em educação**, mas com retornos econômicos ainda limitados, indicando a presença de outros gargalos estruturais.
+## 🧩 Conclusões
+
+- **Educação importa:** Existe uma correlação clara entre melhores indicadores educacionais e níveis mais altos de renda per capita.
+- **Mas não basta investir:** O simples aumento nos gastos não garante crescimento. É necessário que o investimento seja **efetivo**, bem distribuído e acompanhado de políticas de desenvolvimento econômico.
+- **O contexto importa:** Em países com fragilidade institucional ou desigualdades profundas, os ganhos econômicos da educação podem ser limitados.
+- **Próximos passos:** Pesquisas futuras podem combinar análise de causalidade e modelos explicativos para compreender melhor **como** e **quando** a educação se transforma em crescimento econômico.
 
 ---
 
-## 🔎 Conclusão
-O estudo reforça a visão de que **educação é condição necessária, mas não suficiente, para o crescimento econômico sustentável**.  
-- Em economias emergentes, o investimento em educação precisa ser acompanhado de reformas institucionais e de mercado para gerar impacto duradouro.  
-- Já em países desenvolvidos, a escolaridade elevada consolida ganhos de produtividade e inovação.  
+## 📂 Estrutura do Repositório
 
-📌 **Implicação para políticas públicas**: expandir o acesso e melhorar a qualidade educacional são estratégias fundamentais, mas precisam ser integradas a políticas econômicas mais amplas.
+- `data/` → bases utilizadas (Banco Mundial)  
+- `notebooks/` → análises exploratórias e correlações  
+- `figures/` → gráficos e visualizações  
+- `results/` → tabelas de saída e indicadores finais  
 
 ---
 
-## ⚙️ Como Reproduzir
-Clone este repositório e rode o notebook principal:
+✍️ **Autor:** Roberto C.  
+🔗 [Perfil GitHub](https://github.com/rhccarmo21) | [LinkedIn](#)  
 
-```bash
-git clone https://github.com/rhccarmo21/mb-education-economic-growth.git
-cd mb-education-economic-growth
-jupyter notebook
